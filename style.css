@@ -1,0 +1,170 @@
+#main
+{
+    width: 100%;
+    height: 2500px;
+    position: relative;
+    
+}
+#leftmain
+{
+    width: 25%;
+    height: 100%;
+    border: solid rgb(0, 208, 255) 1px;
+    border-right: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 255, 255);
+    position: fixed;
+    
+}
+.profilepic
+{
+    width: 225px;
+    height: 225px;
+    border: solid rgb(0, 208, 255) 1px;
+    border-radius: 50%;
+    margin-left: 18%;
+    margin-top: 18%;
+    margin-bottom: 15px;
+    
+}
+.profile
+{
+    border-radius: 50%;
+}
+.profile:hover
+{
+    width: 45px;
+    height: 45px;
+}
+.name
+{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    
+}
+
+.cate
+{
+    display: grid;
+    margin: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+button,.p1button
+{
+    width: 80px;
+    border: 0px;
+    background-color: rgb(211, 255, 255);
+    border-radius: 25px / 50%;
+}
+button:hover,.p1button:hover
+{
+    border-radius: 25px / 50%;
+    background-color: rgb(133, 233, 255) ;
+}
+
+#rightmain
+{
+    width: 58%;
+    height: 100%;
+    background-color: rgb(237, 255, 255);
+    border: solid rgb(0, 208, 255) 1px;
+    padding: 50px;
+    padding-right: 200px;
+    position: absolute;
+    left: 25%;
+    top: 0%;
+
+}
+.cgpa,.university
+{
+    width: 300px;
+    height: 75px;
+    border: solid rgb(0, 208, 255) 1px;
+    border-radius: 2%;
+    padding: 10px;
+    background-color:rgb(197, 244, 255) ;
+}
+.cgpa:hover,.university:hover,.personalinfo0:hover,.professionalinfo0:hover,.hi:hover,.btech:hover,.inter:hover,.school:hover
+{
+    background-color: rgb(133, 233, 255) ;
+}
+
+.university
+{
+    position: absolute;
+    top: 220px;
+    left: 430px;
+}
+.personal
+{
+    display: grid;
+   
+}
+.personalinfo,.professionalinfo
+{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 20px;
+}
+.personalinfo0,.professionalinfo0
+{
+    margin-top:20px;
+    padding: 15px;
+    width:675px;
+    height: auto;
+    border: solid rgb(0, 208, 255) 1px;
+    background-color:rgb(197, 244, 255) ;
+}
+#skills
+{
+    display: flex;
+    
+    gap: 50px;
+}
+.programming,.technologies,.tools
+{
+    border: solid rgb(0, 208, 255) 1px;
+    width: 500px;
+    height: 300px;
+}
+.programming1,.technologies1,.tools1
+{
+    display: grid;
+    padding-left: 20%;
+    padding-top: 5%;
+    gap: 20px;
+}
+.hi
+{
+    border: solid rgb(0, 208, 255) 1px;
+    background-color:rgb(197, 244, 255) ;
+    margin-right: 25%;
+    padding: 10px;
+    border-radius: 25px / 50%;
+    text-align: center;
+    
+}
+#education
+{
+    display: grid;
+    gap: 25px;
+}
+
+.btech,.inter,.school
+{
+    width: 100%;
+    height: 200px;
+    padding-left: 10px;
+    border: solid rgb(0, 208, 255) 1px ;
+    background-color:rgb(197, 244, 255);
+}
+.p1
+{
+    background-color:rgb(197, 244, 255);
+    width: 500px;
+    height:300px;
+    padding: 10px;
+}
